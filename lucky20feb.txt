@@ -1,0 +1,138 @@
+Q1
+
+Take 3 values from the user ( p ,  r, and t)
+formaulat  :  p*r*t  /100
+To calculate the simple interest
+
+
+Q2
+Take a char input from the user and check whether that is vowel or not
+print whether char is vowel or consonent
+
+Q3
+Calculate the sum of first 100 natural numbers
+
+Q4
+Calculate the average of first 50 natural numbers
+
+Q5 Take two int input from the user for variable x and y
+then
+take the choice from the user to perform which arithmetic
+- if 1 => addition
+-  2 => sub
+3 => mult
+4  => divide
+5 =>  modulus
+
+Q6 Print all the odd number in between from range
+3 to 79
+(3 and 79 is exclusive)
+
+ans.  1. #include <stdio.h> 
+
+int main()
+{
+  
+  int p,r,t;
+  int simple_intrest;
+  printf("enter the p :");
+  scanf("%d",&p);
+  printf("enter the r :");
+  scanf("\n%d",&r);
+  printf("enter the t :");
+  scanf("\n%d",&t);
+  
+  simple_intrest=(p*r*t)/100;
+  printf("simple interest is %d\n", simple_intrest);
+    return 0;
+}
+
+
+ans.2.  #include <stdio.h> 
+
+int main()
+{
+ char ch;
+  printf("inter a character:");
+  scanf("%c", &ch);
+  if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U'){
+      printf(" vowel %c\n", ch);
+  } else{
+      printf(" not vowel %c\n",ch);
+  }
+  
+  
+ 
+    return 0;
+}
+ans. 3.  int n;
+  int sum=0;
+  int i;
+  printf("enter the number");
+  scanf("%d",&n);
+   for(i=1;i<=n;i++){
+       sum= sum+i;
+       
+   } printf("sum is%d ",sum);
+  
+  
+    return 0;
+}
+ans.4. #include <stdio.h> 
+
+int main()
+{
+  float n=50;
+  float sum=0;
+  float avg=sum/50;
+  for(n=1;n<=50;n++){
+      sum=sum+n;
+  } printf("%f",sum/50);
+  
+ 
+    return 0;
+}   
+
+ans.5. int main()
+{
+    int x;
+    printf("enter the x: ");
+    scanf("%d",&x);
+     int y;
+    printf("enter the y:");
+    scanf("%d",&y);
+     int z;
+    printf("enter the z:");
+    scanf("%d",&z);
+    if(z==1){
+        printf("sum of %d",x+y);
+    }else if(z==2){
+        printf("sub of %d",x-y);
+    } else if(z==3){
+        printf("mult of %d",x*y);
+    } else if(z==4){
+        printf("divide of %d",x/y);
+    
+    }  else if(z==5){
+        printf("sum of %d",x%y);
+    } else{
+        printf("not a valid");
+    }
+
+    return 0;
+}
+
+ans. 6. 
+#include <stdio.h> 
+
+int main()
+{
+  int i;
+  for(i=4;i<79;i++){
+      if(i%2!=0){
+          printf("odd number :%d\n",i);
+      }
+  }
+    return 0;
+}
+
