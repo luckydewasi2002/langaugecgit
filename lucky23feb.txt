@@ -1,0 +1,413 @@
+while loop:
+1)1---->100
+---------------------------------------
+2)100--->1
+-----------------------------------------
+3)1---->100 even numbers print
+--------------------------------------------
+4) 100--->1 even number
+-------------------------------------------------
+5)1---->100 odd numbers
+--------------------------------------------------
+6)50---->500 number print
+-----------------------------------------
+7)500--->50 number print
+------------------------------------------------
+8)50--->1000 even number
+--------------------------------------------------
+9)user input
+34-----67
+------------------------------------------------------
+10) random two 34-->67
+even number
+-----------------------------------------
+11) random two 34-->67
+oddd number
+---------------------------------------------
+12)1--->10 sum (addition)
+-----------------------------------------------------------
+13)2 table print
+-------------------------------------------
+14)user input table
+--------------------------------------------------
+15)2 3 4 5 6 7 8 9 10 table print (nested for)
+type2:
+5 ----9 table
+-------------------------------------------------------
+16)1-->100 (7 and 3 ka multiple)
+---------------------------------------------------
+17) divide number both 5 and 11 (1---->100)
+--------------------------------------------------------
+18)100----1 (5 or 11)
+----------------------------------
+19)2 table oppsite print
+-------------------------------------------------
+20) Take 2 input from user name as  n and m
+n=3  , m=6
+100--->1 (which number are divisible by n or m )
+-----------------------------------------------------
+21)
+1--->100 even number sum
+------------------
+22)
+1---->100 odd number ka sum
+
+
+ans. 1.  
+       #include <stdio.h>
+
+int main()
+{
+    int i=1;
+    while(i<=100){
+        printf("\n%d",i);
+        i++;
+    }
+
+    return 0;
+}
+
+
+ans..2.
+       
+#include <stdio.h>
+
+int main()
+{
+    int i=100;
+    while(i>=1){
+        printf("\n%d",i);
+        i--;
+    }
+
+    return 0;
+}
+
+ans.3.
+
+#include <stdio.h>
+
+int main()
+{
+   int num=1;
+   while(num<100){
+       num++;
+       if(num%2==0){
+           printf("\n%d",num);
+
+       }
+   }
+    return 0;
+}
+
+ans.4.
+
+#include <stdio.h>
+
+int main()
+{
+   int num=100;
+   while(num>1){
+       num--;
+       if(num%2==0){
+           printf("\n%d",num);
+
+       }
+   }
+    return 0;
+}
+ans.5.
+
+#include <stdio.h>
+
+int main()
+{
+   int num=1;
+   while(num<100){
+       num++;
+       if(num%2!=0){
+           printf("\n%d",num);
+
+       }
+   }
+    return 0;
+}
+
+
+
+ans.6.
+      
+#include <stdio.h>
+
+int main()
+{
+    
+    int num=50;
+    while(num<=500){
+        printf("\n%d",num);
+        num++;
+    }
+       
+
+    return 0;
+}
+
+
+ans.7.
+      #include <stdio.h>
+
+int main()
+{
+    
+    int num=500;
+    while(num>=50){
+        printf("\n%d",num);
+        num--;
+    }
+       
+
+    return 0;
+}
+
+ans.8.
+#include <stdio.h>
+
+int main()
+{
+    int num=50;
+    while(num<=1000){
+         num++;
+        if(num%2==0){
+            printf("\n%d",num);
+            
+        }
+    }
+    return 0;
+}
+
+
+ans.12.
+       
+#include <stdio.h>
+
+int main()
+{
+    
+    int num=1;
+    int sum=0;
+    
+    while(num<=10){
+        sum=sum+num;
+        printf("\n%d",sum);
+        num++;
+    }
+       
+       
+
+    return 0;
+}
+
+ans.13. 
+       
+#include <stdio.h>
+
+int main()
+{
+    
+    int num=1;
+    int tab=2;
+    
+    while(num<=10){
+       
+        printf("\n%d",tab*num);
+        num++;
+    }
+       
+       
+
+    return 0;
+}
+
+ans.14.
+
+
+#include <stdio.h>
+
+int main()
+{
+    
+    int num=1;
+    int tab;
+    printf("enter a number  : ");
+    scanf("%d",&tab);
+    
+    while(num<=10){
+       
+        printf("\n%d",tab*num);
+        num++;
+    }
+       
+ans .15. 
+#include <stdio.h>
+
+int main()
+{
+    int i,j;
+    for(i=2;i<=10;i++){
+        for(j=1;j<=10;j++){
+            printf("\n%d",i*j);
+        }
+    }
+  
+  
+  
+  
+  
+  
+    return 0;
+}
+
+
+
+
+ans. 16.  
+#include <stdio.h>
+
+int main()
+{ 
+  int num=1;
+  
+ 
+  while(num<=100){
+      if(num%7==0 && num%3==0){
+          printf("\nmultiple of 7& 3 %d",num);
+        
+      }  num++;
+      
+      
+  }
+    
+    return 0;
+}
+
+
+
+ans. 17.  
+#include <stdio.h>
+
+int main()
+{ 
+  int num=1;
+  
+ 
+  while(num<=100){
+      if(num%5==0 && num%11==0){
+          printf("\nmultiple of 5 & 11 %d",num);
+        
+      }  num++;
+      
+      
+  }
+    
+    return 0;
+}
+
+
+ans.18.
+#include <stdio.h>
+
+int main()
+{ 
+  int num=100;
+  
+ 
+  while(num>=1){
+      if(num%5==0 && num%11==0){
+          printf("\nmultiple of 5 & 11 %d",num);
+        
+      }  num--;
+      
+      
+  }
+    
+    return 0;
+}
+
+ans.19.
+
+#include <stdio.h>
+
+int main()
+{ 
+  int num=10;
+  int tab=2;
+  
+ 
+  while(num>=1){
+      printf("\n%d",tab*num);
+      num--;
+  }
+     
+    
+    return 0;
+}
+
+ans.20. 
+
+#include <stdio.h>
+
+int main()
+{
+   int num =100;
+    int m, n;
+       printf("enter a number m :");
+       scanf("%d",&m);
+       
+       printf("enter a number n :");
+       scanf("%d",&n);
+        while(num>=1){
+            if(num%m==0 && num%n==0){
+                printf("\nright this number is divide by m & n%d",num);
+            } num--;
+        }
+
+    return 0;
+}
+
+ans .21. #include <stdio.h>
+
+int main()
+{
+    int i=1;
+    int sum=0;
+    while(i<=100){
+       
+        
+         i++;
+        if(i%2==0){
+            sum=sum+i;
+            printf(" sum of even number \n%d",sum);
+           
+        }
+    }
+    return 0;
+}
+ans.22.
+#include <stdio.h>
+
+int main()
+{
+    int i=1;
+    int sum=0;
+    while(i<=100){
+       
+        
+         i++;
+        if(i%2!=0){
+            sum=sum+i;
+            printf(" sum of even number \n%d",sum);
+           
+        }
+    }
+    return 0;
+}
