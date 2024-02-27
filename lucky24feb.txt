@@ -1,0 +1,107 @@
+q1.
+
+****$
+***$$
+**$$$
+*$$$$
+$$$$$
+
+ans.1.
+
+#include <stdio.h>
+
+int main()
+{
+    int i,j,k;
+  
+    for(i=1;i<=5;i++){
+        
+        for(j=i;j<=4;j++){
+           
+            printf("*" );
+        }
+           for(k=1;k<=i;k++){
+                printf("$");
+            
+            
+            
+        }printf("\n");
+    
+        
+  
+    }
+  
+  
+    return 0;
+}
+
+q2.
+A
+bc
+def
+ghij
+
+
+ans.2.
+#include <stdio.h>
+
+int main()
+{
+    int i,j;
+    int z= 'a';
+    
+    for(i=1;i<=4;i++){
+        
+        for(j=1;j<=i;j++){
+          
+            printf("%c",z++ );
+        }printf("\n");
+    
+        
+  
+    }
+  
+  
+    return 0;
+}
+q3.
+A
+Ab
+abc
+abcd
+ans.3.
+#include <stdio.h>
+
+int main()
+{
+    int i,j;
+    char ch=10;
+    for(i=1;i<=4;i++){
+        for(j=1;j<=i;j++){
+            printf("%c",'a'+j-1);
+        } printf("\n");
+    }
+    return 0;
+}
+q4.
+
+**
+****
+******
+********
+**********
+ans.  #include <stdio.h>
+
+
+
+
+int main()
+{
+  int i,j;
+  for(i=1;i<=5;i++){
+      for(j=1;j<=2*i;j++){
+          printf("*");
+      }printf("\n");
+  }
+    return 0;
+}
