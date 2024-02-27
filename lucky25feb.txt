@@ -1,0 +1,115 @@
+Q
+create 3 function for printing the area of triangle
+square and rectage
+
+
+ans.1.
+ #include <stdio.h>
+
+void triangle(int base, int height){
+    printf("aria of triangle %d",(base*height)/2);
+  
+  
+ }
+ void square(int a){
+     printf("\naria of square %d",a*a);
+ }
+ void rectangle(int a,int b){
+     printf("\naria of rectangle %d",a*b);
+ }
+
+
+void main()
+{
+    triangle(100,50);
+    square(10);
+    rectangle(10,20);
+
+  
+}
+ 
+
+
+Q
+Call by Value and call by reference
+
+Q
+What is armstrong number
+write a program to identify any number as armstrong number
+(153)  => 1**3   + 5**3 +3 **3  => 1+125+27 => 153
+ans.  
+    #include <stdio.h>
+
+int main()
+{
+    int x=153,reminder=0,total=0;
+    int originalnum;
+    originalnum=x;
+    while(originalnum!=0){
+        reminder=originalnum%10;
+        total+=reminder*reminder*reminder;
+        originalnum=originalnum/10;
+    } if(x==total){
+        printf("armstrong number");
+    }else{
+        printf("not armstrogn number");
+    }
+
+    return 0;
+}
+
+
+Q4
+*
+**
+* *
+*  *
+*   *
+*****
+ans.
+#include <stdio.h>
+
+int main()
+{
+    char i,j;
+    for(i=0;i<5;i++){
+        for(j=0;j<=i;j++){
+            if(i==4|| i== j || j==0 ){
+                printf("*");
+            }else{
+                printf(" ");
+            }
+        } printf("\n");
+    }
+
+    return 0;
+}
+
+
+
+Q5
+Z
+ZY
+ZYX
+ZYXW
+
+
+ans.
+    #include <stdio.h>
+
+int main()
+{
+    char i,j;
+    for(i=0;i<4;i++){
+        for(j=0;j<=i;j++){
+            printf("%c",'Z'-j );
+        } printf("\n");
+    }
+
+    return 0;
+}
+
+
+
+
+
