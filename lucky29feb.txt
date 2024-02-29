@@ -1,0 +1,84 @@
+q 1.) print how are you 
+
+ans.#include<stdio.h>
+int main()
+{
+    printf("how are you");
+    
+    
+    return 0;
+}
+
+-------------------------------------------
+q.2.)five friends name 
+ans.
+#include<stdio.h>
+int main()
+{
+    printf("yogesh");
+    printf("ayush");
+    printf("mahendra");
+    printf("dinesh");
+    printf("mahesh");
+    
+    return 0;
+}
+-------------------------------------------
+new line 
+q.3)five fav food name 
+ans.
+#include<stdio.h>
+int main()
+{
+    printf("rajasthani food");
+    printf("\n bangali swweets");
+    printf("\n mumbai vada pav");
+    printf("\n chines food");
+    printf("\n gujrati fafda");
+    
+    
+    return 0;
+}
+------------------------------------
+q.4)five family name 
+ans.
+#include<stdio.h>
+int main()
+{
+    printf("shanti");
+    printf("arya");
+    printf("seema");
+    printf("monika");
+    printf("nirma");
+    
+    return 0;
+}
+
+-----------------------------
+new line 
+q.5)five city name 
+ans.
+#include<stdio.h>
+int main()
+{
+    printf("nagaur");
+    printf("\njodhpur");
+    printf("\npune");
+    printf("\nbangluru");
+    printf("\njaipur");
+    return 0;
+}
+----------------------------------
+q.6)five state name 
+ans.
+#include<stdio.h>
+int main()
+{
+    printf("rajasthan");
+    printf(" maharastra");
+    printf(" karnataka");
+    printf(" himachal pardesh");
+    printf(" jammu kashmir");
+    return  0;
+}
+-----------------------------------------------
