@@ -1,0 +1,203 @@
+
+q.)3.456
+ans. 
+ #include<stdio.h>
+int main(){
+    
+    float a=3.456;
+    printf("%f",a);
+    return 0;
+}
+q.)-678
+ans.
+#include<stdio.h>
+int main(){
+    
+    int a =-678;
+    printf("%d",a);
+    return 0;
+}
+q.) e
+ans.
+#include<stdio.h>
+int main(){
+    
+    char a='e';
+    printf("%c",a);
+    return 0;
+}
+q.)1234
+ans.
+#include<stdio.h>
+int main(){
+    
+    int a=1234;
+    printf("%d",a);
+    return 0;
+}
+q.)-123.56
+ans.
+#include<stdio.h>
+int main(){
+    
+    float a=-123.56;
+    printf("%f",a);
+    return 0;
+}
+q.)p
+ans.
+#include<stdio.h>
+int main(){
+    
+    char a='p';
+    printf("%c",a);
+    return 0;
+} 
+
+--------------------------------------------------------
+q.)23+78
+ans.
+#include<stdio.h>
+int main(){
+    
+    int a=23;
+    int b=78;
+    int c=a+b;
+    printf("%d",c);
+    return 0;
+} 
+
+q.)1+2+3+4+5 
+ans.
+#include<stdio.h>
+int main(){
+    
+    int a=1;
+    int b=2;
+    int c=3;
+    int d=4;
+    int e=5;
+    int f =a+b+c+d+e;
+    printf("%d",f);
+    return 0;
+}
+
+q.)56-3
+ans.
+#include<stdio.h>
+int main(){
+    
+    int a=56;
+    int b=3;
+    
+    int c =a-b;
+    printf("%d",c);
+    return 0;
+} 
+
+q.)23*4
+ans.
+#include<stdio.h>
+int main(){
+    
+    int a=23;
+    int b=4;
+    
+    int c =a*b;
+    printf("%d",c);
+    return 0;
+}
+
+
+q.)12/2
+#include<stdio.h>
+int main(){
+    
+    int a=12;
+    int b=2;
+    
+    int c =a/b;
+    printf("%d",c);
+    return 0;
+}
+
+q.)12+34-56*3
+ans.
+#include<stdio.h>
+int main(){
+    
+    int a=12;
+    int b=34;
+    int c=56;
+    int d=3;
+    
+    int e =a+b-c*d;
+    printf("%d",e);
+    return 0;
+}
+
+q.)12*9+(2+2)
+ans.
+#include<stdio.h>
+int main(){
+    
+    int a=12;
+    int b=9;
+    int c=2;
+    int d=2;
+    
+    int e =a*b+(c+d);
+    printf("%d",e);
+    return 0;
+} 
+
+q.)1.2*56-67+45*23 
+ans.
+#include<stdio.h>
+int main(){
+    
+    float a=1.2;
+    float b=56;
+    float c=67;
+    float d=45;
+    float f=23;
+    
+    float e =a*b-c+d*f;
+    printf("%f",e);
+    return 0;
+}
+
+
+q.)1.1+(2.3*67)/2-45 *8.9 
+ans.
+#include<stdio.h>
+int main(){
+    
+    float a=1.1;
+    float b=2.3;
+    float c=67;
+    float d=2;
+    float f=45;
+    float g=8.9;
+    
+    float e =a+(b*c)/d-f*g;
+    printf("%f",e);
+    return 0;
+}
+
+q.)123+7-78+45*2.2
+ans.
+#include<stdio.h>
+int main(){
+    
+    float a=123;
+    float b=7;
+    float c=78;
+    float d=45;
+    float f=2.2;
+   
+    
+    float e =a+b-c+d*f;
+    printf("%f",e);
+    return 0;
+}
