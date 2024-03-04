@@ -1,0 +1,406 @@
+
+q)3.456 
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+   float a;
+  
+   printf("enter a :");
+   scanf("%f",&a);
+  
+   printf(" value of %f",a);
+    return 0;
+}
+
+q.)-678
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+   int a;
+  
+   printf("enter a :");
+   scanf("%d",&a);
+  
+   printf(" value of %d",a);
+    return 0;
+}
+
+q.)e
+ans.
+#include <stdio.h>
+
+int main()
+{
+   char a;
+  
+   printf("enter a :");
+   scanf("%c",&a);
+  
+   printf(" value of %c",a);
+    return 0;
+}
+
+q.)1234
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+   int a;
+  
+   printf("enter a :");
+   scanf("%d",&a);
+  
+   printf(" value of %d",a);
+    return 0;
+}
+
+q.)-123.56
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+   float a;
+  
+   printf("enter a :");
+   scanf("%f",&a);
+  
+   printf(" value of %f",a);
+    return 0;
+}
+
+q.)p 
+ans.
+#include <stdio.h>
+
+int main()
+{
+   char a;
+  
+   printf("enter a :");
+   scanf("%c",&a);
+  
+   printf(" value of %c",a);
+    return 0;
+}
+
+
+--------------------------------------------------------
+Q.)23+78 
+ans.
+     #include <stdio.h>
+
+int main()
+{
+   int a;
+    int b;
+    
+    
+    printf("enter the a :");
+    scanf("%d",&a);
+      printf("enter the b :");
+    scanf("%d",&b);
+     
+      
+      
+      
+   int e =a+b;
+    printf("%d",e);
+    
+    return 0;
+}
+
+
+Q.)1+2+3+4+5 
+ans.
+     
+#include <stdio.h>
+
+int main()
+{
+   int a;
+    int b;
+    int c;
+    int d;
+    int f;
+    
+    printf("enter the a :");
+    scanf("%d",&a);
+      printf("enter the b :");
+    scanf("%d",&b);
+      printf("enter the c :");
+    scanf("%d",&c);
+      printf("enter the d :");
+    scanf("%d",&d);
+     printf("enter the f:");
+    scanf("%d",&f);
+      
+      
+      
+   int e =a+b+c+d+f;
+    printf("%d",e);
+    
+    return 0;
+}
+
+
+Q.)56-3 
+ans.
+    #include <stdio.h>
+
+int main()
+{
+   int a;
+   int b;
+   printf("enter a :");
+   scanf("%d",&a);
+   printf("enter b :");
+   scanf("%d",&b);
+   
+   int e=a-b;
+   printf("%d",e);
+    return 0;
+}
+
+
+Q.)23*4
+ans.
+     #include <stdio.h>
+
+int main()
+{
+   int a;
+   int b;
+   printf("enter a :");
+   scanf("%d",&a);
+   printf("enter b :");
+   scanf("%d",&b);
+   
+   int e=a*b;
+   printf("%d",e);
+    return 0;
+}
+
+
+
+Q.)12/2
+ans.
+    #include <stdio.h>
+
+int main()
+{
+   int a;
+   int b;
+   printf("enter a :");
+   scanf("%d",&a);
+   printf("enter b :");
+   scanf("%d",&b);
+   
+   int e=a/b;
+   printf("%d",e);
+    return 0;
+}
+
+
+Q.)12+34-56*3
+ans.
+     
+#include <stdio.h>
+
+int main()
+{
+   int a;
+    int b;
+    int c;
+    int d;
+    
+    
+    printf("enter the a :");
+    scanf("%d",&a);
+      printf("enter the b :");
+    scanf("%d",&b);
+      printf("enter the c :");
+    scanf("%d",&c);
+      printf("enter the d :");
+    scanf("%d",&d);
+      
+      
+   int e =a+b-c*d;
+    printf("%d",e);
+    
+    return 0;
+}
+
+
+Q.)12*9+(2+2) 
+ans.
+   
+#include <stdio.h>
+
+int main()
+{
+   int a;
+    int b;
+    int c;
+    int d;
+    
+    
+    printf("enter the a :");
+    scanf("%d",&a);
+      printf("enter the b :");
+    scanf("%d",&b);
+      printf("enter the c :");
+    scanf("%d",&c);
+      printf("enter the d :");
+    scanf("%d",&d);
+      
+      
+   int e =a*b+(c+d);
+    printf("%d",e);
+    
+    return 0;
+}
+
+Q.)1.2*56-67+45*23 
+ans. 
+    #include <stdio.h>
+
+int main()
+{
+   float a;
+    float b;
+    float c;
+    float d;
+    float f;
+    
+    printf("enter the a :");
+    scanf("%f",&a);
+      printf("enter the b :");
+    scanf("%f",&b);
+      printf("enter the c :");
+    scanf("%f",&c);
+      printf("enter the d :");
+    scanf("%f",&d);
+      printf("enter the f :");
+    scanf("%f",&f);
+      
+     
+   float e =a*b-c+d*f;
+    printf("%f",e);
+    
+    return 0;
+}
+
+
+
+Q.)1.1+(2.3*67)/2-45 *8.9 
+ans. 
+   
+#include <stdio.h>
+
+int main()
+{
+   float a;
+    float b;
+    float c;
+    float d;
+    float f;
+    float g;
+    printf("enter the a :");
+    scanf("%f",&a);
+      printf("enter the b :");
+    scanf("%f",&b);
+      printf("enter the c :");
+    scanf("%f",&c);
+      printf("enter the d :");
+    scanf("%f",&d);
+      printf("enter the f :");
+    scanf("%f",&f);
+      printf("enter the g :");
+    scanf("%f",&g);
+    
+    float e =a+(b*c)/d-f*g;
+    printf("%f",e);
+    return 0;
+}
+
+
+Q.)123+7-78+45*2.2
+ans.
+    #include <stdio.h>
+
+int main()
+{
+   float a;
+    float b;
+    float c;
+    float d;
+    float f;
+    
+    printf("enter the a :");
+    scanf("%f",&a);
+      printf("enter the b :");
+    scanf("%f",&b);
+      printf("enter the c :");
+    scanf("%f",&c);
+      printf("enter the d :");
+    scanf("%f",&d);
+      printf("enter the f :");
+    scanf("%f",&f);
+      
+     
+    float e =a+b-c+d*f;
+    printf("%f",e);
+    
+    return 0;
+}
+
+q.)swap number without third vairable :
+a=67
+b=98
+ans .
+     #include <stdio.h>
+
+int main()
+{
+   int a =67;
+   int b =98;
+   
+   a=a+b;
+   b=a-b;
+   a=a-b;
+   printf("after swap value a :%d\n,after swap value b:%d",a,b);
+  
+  
+    return 0;
+}
+
+q.)swap number with third vairable :
+a=67
+b=98
+ans. 
+
+#include <stdio.h>
+
+int main()
+{
+   int a =67;
+   int b =98;
+   int c;
+   c=a;
+   a=b;
+   b=c;
+   printf("after swap value a :%d\n,after swap value b:%d",a,b);
+  
+  
+    return 0;
+}
