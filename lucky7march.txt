@@ -1,0 +1,224 @@
+q.1)
+1-->10 number print 
+dry run 
+laptop 
+----------------------------------------------------------
+2)
+1-->100 
+----------------------------------------------------------
+3)
+50--->500
+
+----------------------------------------------------------
+4)
+34---->89 
+
+----------------------------------------------------------
+5)
+1--->100 number print incrment 2 
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+  int num;
+  printf("enter a number :");
+  scanf("%d",&num);
+  if(num==1){
+      int a=1;
+      while(a<=10){
+          printf("%d ",a);
+          a++;
+      }
+  }else if(num==2){
+      int a=1;
+      while(a<=100){
+          printf("%d ",a);
+          a++;
+      }
+  }else if(num==3){
+      int a=50;
+      while(a<=1500){
+          printf("%d ",a);
+          a++;
+      }
+  } else if(num==4){
+      int a=34;
+      while(a<=89){
+          printf("%d ",a);
+          a++;
+      }
+  }else if(num==5){
+      int a=1;
+      while(a<=100){
+          printf("%d ",a);
+          a+=2;
+      }
+  }
+    return 0;
+}
+
+-------------------------------------------------------------
+----------------------------------------------------------
+q.2)34---->89 
+
+number print incrment 5
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+  int a=34;
+  while(a<=89){
+      printf("%d ",a);
+      a+=5;
+  }
+    return 0;
+}
+
+-----------------------------------------------
+q.3)10---->1 
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+  int a=10;
+  while(a>=1){
+      printf("%d ",a);
+      a--;
+  }
+    return 0;
+}
+
+-----------------------------------------------
+q.4)100---->1
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+  int a=100;
+  while(a>=1){
+      printf("%d ",a);
+      a--;
+  }
+    return 0;
+}
+
+
+-----------------------------------------------
+q.5)500--->50 
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+  int a=500;
+  while(a>=50){
+      printf("%d ",a);
+      a--;
+  }
+    return 0;
+}
+
+-----------------------------------------------
+q,6)67--->23 
+ans.
+#include <stdio.h>
+
+int main()
+{
+  int a=67;
+  while(a>=23){
+      printf("%d ",a);
+      a--;
+  }
+    return 0;
+}
+
+----------------------------------------
+q.7)
+1 :
+1--->10 number 
+
+
+2:
+98--->67 number 
+
+
+3:
+starting point 
+ending point 
+
+4 :
+10---->1 
+
+5:
+67--->98
+
+6 :
+starting 
+ending 
+reverse order 
+
+input mismatch 
+ans.
+
+#include <stdio.h>
+
+int main()
+{int num;
+  printf("enter a number :");
+  scanf("%d",&num);
+  if(num==1){
+      int a=1;
+      while(a<=10){
+          printf("%d ",a);
+          a++;
+      }
+  }else if(num==2){
+      int a=98;
+      while(a>=67){
+          printf("%d ",a);
+          a--;
+      }
+  }else if(num==3){
+      int sp,ep;
+      printf("enter a number sp or ep :");
+  scanf("%d %d",&sp,&ep);
+      while(sp<=ep){
+          printf("%d ",sp);
+          sp++;
+      }
+  } else if(num==4){
+      int a=10;
+      while(a>=1){
+          printf("%d ",a);
+          a--;
+      }
+  }else if(num==5){
+      int a=67;
+      while(a<=98){
+          printf("%d ",a);
+          a++;
+      }
+  }else if(num==6){
+      int sp,ep;
+      printf("enter a number sp or ep :");
+  scanf("%d %d",&sp,&ep);
+      while(sp>=ep){
+          printf("%d ",sp);
+          sp--;
+      }
+  } else{
+      printf("miss match number");
+  }
+    return 0;
+}
+
