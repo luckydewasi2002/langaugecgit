@@ -1,0 +1,811 @@
+1)
+1 :sunday 
+2 :monday 
+
+week days 
+ans.
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("enter a number :");
+    scanf("%d",&num);
+    if(num==1){
+        printf("sunday");
+    }else if(num==2){
+        printf("monday");
+}else if(num==3){
+        printf("tuesday");
+}else if(num==4){
+        printf("wednesday");
+}else if(num==5){
+        printf("thursday");
+}else if(num==6){
+        printf("friday");
+}else if(num==7){
+    printf("saturday");
+}else {
+        printf("plz enter tha valid day (1..7)");
+}
+    return 0;
+}
+
+---------------------------------------------
+2)
+12 month 
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("enter a number :");
+    scanf("%d",&num);
+    if(num==1){
+        printf("janvaury");
+    }else if(num==2){
+        printf("february");
+}else if(num==3){
+        printf("march");
+}else if(num==4){
+        printf("april");
+}else if(num==5){
+        printf("may");
+}else if(num==6){
+        printf("june");
+}else if(num==7){
+    printf("july");
+}else if(num==8){
+        printf("august");
+}else if(num==9){
+    printf("september");
+}else if(num==10){
+    printf("october");
+}else if(num==11){
+    printf("november");
+}else if(num==12){
+    printf("december");
+}else {
+    printf("plz enter the valid number (1..12)");
+}
+    return 0;
+}
+
+
+--------------------------------------------------
+3)
+1---> 10 number 
+ans.
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("enter a number :");
+    scanf("%d",&num);
+    if(num==1){
+        printf("one");
+    }else if(num==2){
+        printf("two");
+}else if(num==3){
+        printf("three");
+}else if(num==4){
+        printf("four");
+}else if(num==5){
+        printf("five");
+}else if(num==6){
+        printf("six");
+}else if(num==7){
+    printf("seven");
+}else if(num==8){
+        printf("eight");
+}else if(num==9){
+    printf("nine");
+}else if(num==10){
+    printf("ten");
+
+}else {
+    printf("plz enter the valid number (1..10)");
+}
+    return 0;
+}
+
+
+-----------------------------------------------------
+4)
+a : 
+b : 
+c : 
+d :
+e :
+
+input mismatch 
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+    char ch;
+    printf("enter a character(a..e) :");
+    scanf("%c",&ch);
+    if(ch=='a'){
+        printf("austrelia");
+    }else if(ch=='b'){
+        printf("brazil");
+    }else if(ch=='c'){
+        printf("china");
+    }else if(ch=='d'){
+        printf("dubai");
+    }else if(ch=='e'){
+        printf("ethopia");
+    }else{
+        printf("miss match character ");
+    }
+    return 0;
+}
+---------------------------------------------
+5)
+vowel consonant :
+a:vowel 
+e :vowel 
+i:vowel 
+o:vowel 
+u:vowel 
+
+consonant
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+    char ch;
+    printf("enter a character :");
+    scanf("%c",&ch);
+    if(ch=='a'){
+        printf("vowel");
+    }else if(ch=='e'){
+        printf("vowel");
+    }else if(ch=='i'){
+        printf("vowel");
+    }else if(ch=='o'){
+        printf("o");
+    }else if(ch=='u'){
+        printf("vowel");
+    }else{
+        printf("consonant ");
+    }
+    return 0;
+}
+
+---------------------------------------------
+6)
+a :two number addition 
+s :two number substraction
+d :two number divide
+m : two number multiplication
+o :two number modular 
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+    char ch;
+    printf("enter a character :");
+    scanf("%c",&ch);
+    if(ch=='a'){
+        int num1;
+        int num2;
+         printf("enter a num 1 and num 2 :");
+    scanf("%d %d",&num1,&num2);
+        int num3 =num1+num2;
+        printf("addition of num1 and num2 : %d",num3);
+    } else if(ch=='s'){
+        int num1;
+        int num2;
+         printf("enter a num 1 and num 2 :");
+    scanf("%d %d",&num1,&num2);
+        int num3 =num1-num2;
+        printf("subtraction of num1 and num2 : %d",num3);
+    } else if(ch=='m'){
+        int num1;
+        int num2;
+         printf("enter a num 1 and num 2 :");
+    scanf("%d %d",&num1,&num2);
+        int num3 =num1*num2;
+        printf("multiple of num1 and num2 : %d",num3);
+    } else if(ch=='d'){
+        int num1;
+        int num2;
+         printf("enter a num 1 and num 2 :");
+    scanf("%d %d",&num1,&num2);
+        int num3 =num1/num2;
+        printf("divide of num1 and num2 : %d",num3);
+    } else if(ch=='o'){
+        int num1;
+        int num2;
+         printf("enter a num 1 and num 2 :");
+    scanf("%d %d",&num1,&num2);
+        int num3 =num1%num2;
+        printf("modular of num1 and num2 : %d",num3);
+    }else{
+        printf("missmatch character");
+    }
+    return 0;
+}
+
+
+---------------------------------------------
+7)
+s :swap two number without third varaible 
+
+w :swap two number with third varaible 
+
+input mismatch 
+ans .
+
+#include <stdio.h>
+
+int main()
+{
+    char ch;
+    printf("enter a character :");
+    scanf("%c",&ch);
+    
+      if(ch=='s'){
+        int num1;
+        int num2;
+         printf("enter a num 1 and num 2 :");
+    scanf("%d %d",&num1,&num2);
+        num1=num1+num2;
+        num2=num1-num2;
+        num1=num1-num2;
+        printf("swap without third variable num1 and num2 : %d %d",num1,num2);
+    } else  if(ch=='w'){
+        int num1;
+        int num2;
+         printf("enter a num 1 and num 2 :");
+    scanf("%d %d",&num1,&num2);
+    int num3;
+        num3=num1;
+        num1=num2;
+        num2=num3;
+        printf("swap with third variable num1 and num2 : %d %d",num1,num2);
+    } else {
+        printf("missmatch character");
+    }
+    return 0;
+}
+
+-----------------------------------------------------
+8)
+C program to convert temperature from Fahrenheit to Celsius and Celsius to Fahrenheit
+celsius 
+f 
+c---f 
+ceclius 
+f---->c 
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+    char ch;
+    printf("enter a character :");
+    scanf("%c",&ch);
+    
+      if(ch=='f'){
+        int num1;
+        
+         printf("enter a num1(fahrenheit) :");
+    scanf(" %d",&num1);
+       float f= (num1 * 9/5) + 32 ;
+
+        printf(" celsius to frn. :%f",f);
+    }else if (ch=='c'){
+       int num2;
+       printf("enter  a num2 (celsius):");
+       scanf("%d",&num2);
+       float c=(num2-32)*5/9;
+        printf("f.. to celsius :%f",c);
+    } else{
+        printf("miss match character");
+    }
+    return 0;
+}
+
+---------------------------------------------------------------------------
+9)Check whether the trainge , square , reactanlge (area & volume)
+->input area /volume 
+area 
+traingle square rectangle 
+square 
+ans.
+#include <stdio.h>
+
+int main()
+{
+    char ch;
+    printf("enter a character (a & v):");
+    scanf("%c",&ch);
+    
+      if(ch=='a'){
+          char ch;
+    printf("enter a character(t,s,r) :");
+    scanf(" %c",&ch);
+    if(ch=='t'){
+        float base,height;
+         printf("enter a base and height :");
+    scanf("%f %f",&base ,&height);
+    float aria=(base*height)/2;
+    printf("aria of triangle:%f",aria);
+    } else  if(ch=='s'){
+        float side;
+         printf("enter a side :");
+    scanf(" %f ",&side);
+    float aria=side*side;
+    printf("aria of squre:%f",aria);
+    }else  if(ch=='r'){
+        float w,l;
+         printf("enter a w,l :");
+    scanf(" %f %f",&w,&l);
+    float aria=w*l;
+    printf("aria of rectangle:%f",aria);
+    }else{
+        printf("miss match character");
+    }
+      }else if (ch=='v'){
+          printf("enter a character(t,s,r) :");
+    scanf(" %c",&ch);
+    if(ch=='t'){
+        float base,height;
+        printf("enter a base and height :");
+    scanf("%f %f",&base ,&height);
+    float volume=base*height;
+    printf("volume of triangle:%f",volume);
+    }else if(ch=='s'){
+        float side;
+        printf("enter a side :");
+    scanf("%f",&side);
+    float volume=side*side*side;
+    printf("volume of triangle:%f",volume);
+    }else if(ch=='r'){
+        float l,w,h;
+        printf("enter a side l,w,h :");
+    scanf("%f %f %f",&l,&w,&h);
+    float volume=l*w*h;
+    printf("volume of triangle:%f",volume);
+    }
+      }
+    return 0;
+}
+
+---------------------------------------------------------------------------
+10)C program to enter student marks and find percentage and grade
+A college has the following rules for the grading system:
+5 marks (grade + %)
+1. Below 25 – F
+2. 25 to 45 – E
+3. 45 to 50 – D
+4. 50 to 60 – C
+5. 60 to 80 – B 
+6. Above 80 – A
+ans.
+#include <stdio.h>
+
+int main()
+{
+   int phy,che,math,eng,hindi;
+   printf("enter the marks<=100(phy.che.math.eng.hindi.) :");
+   scanf("%d %d %d %d %d",&phy,&che,&math,&eng,&hindi);
+   int total =phy+che+math+eng+hindi;
+   float pr=(total*100)/500;
+   if(pr<25){
+       printf("f garde");
+   }else if(pr>=25 && pr<=45){
+       printf("e garde");
+   }else if(pr>45 && pr<=50){
+       printf("d garde");
+   }else if(pr>50 && pr<=60){
+       printf("c garde");
+   }else if(pr>60 && pr<=80){
+       printf("b grade ");
+   }else if(pr>80 && pr<=100){
+       printf(" a garde");
+   }else {
+       printf("enter the valid marks");
+   } printf("\npracentage is :%f",pr);
+    return 0;
+}
+----------------------------------------------------------------------------------------------
+
+11)Write a C program to read the roll no, name,fnname and marks of three subjects and calculate the total, percentage and division.
+Test Data :
+Input the Roll Number of the student :784
+student name : 
+fname:
+mname:
+address:
+contact:
+Input the marks of Physics, Chemistry and Computer Application : 70 80 90
+total: 
+precentage : % 
+division:
+ans.
+int main()
+{
+    int rl;
+    printf("enter roll number :");
+    scanf("%d",&rl);
+   
+   int phy,che,math,comp;
+   printf("enter the marks<=100(phy.che.comp.) :");
+   scanf("%d %d %d ",&phy,&che,&comp);
+    
+   int total =phy+che+comp;
+   float pr=(total*100)/300;
+   
+   printf("\n roll number :%d",rl);
+    printf("\nstudent name : rajendra singh");
+     printf("\nfather's name : mahendra singh");
+     printf("\nmother's name : jyoti kanvar");
+      printf("\naddress : shanti nagar ,jaipur 451028");
+      printf("\ncontact number :9785726787");
+      printf("\ntotal marks :%d",total);
+      printf("\nprecantage is :%f",pr);
+   if(pr<=45 ){
+       printf("\n division : third division");
+   }else if(pr>45 && pr<60){
+       printf("\ndivision :second division");
+   }else if(pr>=60 && pr<=100){
+       printf("\ndivision :frist division");
+   }else {
+       printf("\nenter the valid marks");
+   } 
+    return 0;
+}
+--------------------------------------------------------------------------------------
+
+12) Time of Day Greeting
+Create a program that asks for the time of day (morning, afternoon, evening) and then greets the user accordingly. For example, "Good morning!" if the time is morning.
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+   int tym;
+   printf("enter the time(1_24) :");
+   scanf("%d",&tym);
+   if(tym>=5 && tym<=12){
+       printf("good morning !");
+   }else if(tym>12 && tym<=18){
+       printf("good afternoon !");
+   }else if (tym<=24) {
+       printf("good night !");
+   }
+else{
+printf("missmatch");
+}
+    return 0;
+}
+------------------------------------------------------------------
+13)
+electric city bill : 
+4 unit 
+40 
+1- 10 = 10% 
+11-20 =15% 
+21-40 =30% 
+50 =50% 
+
+output : 
+name:
+unit :3 
+amout 30 
+discout : 10% 
+total pay amount : 
+ans.
+#include <stdio.h>
+
+int main()
+
+{float unit;
+   printf("enter the unit :");
+   scanf("%f",&unit);
+   float amt=unit*10;
+ printf("\nname     : laxman");
+ printf("\nunit is   :%f",unit);
+ printf("\namount is   :%f",amt);
+ 
+  if(unit>=1 && unit<=10){
+      float damt =(amt*10)/100;
+  printf("\n discount is 10 prcnt : %f",damt);
+    printf("\ntotal pay amount is :%f",amt-damt);
+  
+  
+   
+  }else if(unit>=11 && unit<=20){
+      float damt =(amt*15)/100;
+  printf("\n discount is 15 prcnt : %f",damt);
+   printf("\ntotal pay amount is :%f",amt-damt);
+  
+  
+  } else if(unit>=21 && unit<=40){
+      float damt =(amt*30)/100;
+  printf("\n discount is 30 prcnt : %f",damt);
+   printf("\ntotal pay amount is :%f",amt-damt);
+  
+  
+  } else if(unit>=50 ){
+      float damt =(amt*50)/100;
+  printf("\n discount is 50 prcnt : %f",damt);
+  printf("\ntotal pay amount is :%f",amt-damt);
+  
+  }  
+    
+    return 0;
+}
+
+-----------------------------------------
+
+14)
+e :check number even or not 
+o :check number odd or not 
+v :check voter eligible 
+t :two number maximum 
+c :vowel and consonant 
+k :keyboard characters 
+	upper line 
+	mid line 
+	lower line 
+d :divisibilty check 5 and 2 both
+q :divisibilty check 7 and 15 anyone
+s :swap number
+	w :with variable 
+	i :without variable 
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+   char ch;
+   printf("enter the character :");
+   scanf("%c",&ch);
+   if(ch=='e'){
+       int num;
+       printf("enter the number :");
+   scanf("%d",&num);
+       if(num%2==0){
+           printf("even number");
+       } else {
+           printf("not even");
+       }
+   }else if(ch=='o'){
+       int num;
+       printf("enter the number :");
+   scanf("%d",&num);
+       if(num%2!=0){
+           printf("odd number");
+       } else {
+           printf("not odd");
+       }
+   }else if(ch=='v'){
+       int num;
+       printf("enter the age :");
+   scanf("%d",&num);
+       if(num>=18){
+           printf("eligible for vote");
+       } else {
+           printf("not eligible for vote");
+       }
+   }else if(ch=='t'){
+       int num1,num2;
+       printf("enter the number1 and 2 :");
+   scanf("%d %d",&num1,&num2);
+       if(num1>=num2){
+           printf("num1 is maximum");
+       } else {
+           printf("num2 is maximum");
+       }
+   }else if(ch=='c'){
+       char ch;
+       printf("enter the character :");
+   scanf(" %c",&ch);
+       if(ch=='a' ||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+           printf("vowel");
+       } else {
+           printf("consonant");
+       }
+   }else if(ch=='k'){
+       char ch;
+       printf("enter the character :");
+   scanf(" %c",&ch);
+       if(ch=='q' ||ch=='w'||ch=='e'||ch=='r'||ch=='t'||ch=='y' ||ch=='u'||ch=='i'||ch=='o'||ch=='p'){
+           printf("upper line");
+       } else if(ch=='a' ||ch=='s'||ch=='d'||ch=='f'||ch=='g'||ch=='h' ||ch=='j'||ch=='k'||ch=='l') {
+           printf("mid line");
+       }else{
+           printf("lower line");
+       }
+   }else if(ch=='d'){
+       int num;
+       printf("enter the number :");
+   scanf(" %d",&num);
+       if(num%5==0 && num%2==0){
+           printf("right divide by 5 or 2");
+       } else {
+           printf("not a divide by 5 or 2");
+       }
+   }else if(ch=='q'){
+       int num;
+       printf("enter the number :");
+   scanf(" %d",&num);
+       if(num%7==0 && num%15==0){
+           printf("right divide by 7 or 15");
+       } else {
+           printf("not a divide by 7 or 15");
+       }
+   }else if(ch=='s'){
+       char ch;
+       printf("enter the character :");
+   scanf(" %c",&ch);
+   if(ch=='w'){
+        int num1,num2;
+       printf("enter the number1 and 2 :");
+   scanf("%d %d",&num1,&num2);
+   printf("\nbefore swap value num1,num2 %d %d",num1,num2);
+   num1=num1+num2;
+   num2=num1-num2;
+   num1=num1-num2;
+   printf("\nafter swap value num1,num2 %d %d",num1,num2);
+   } else if(ch=='i'){
+        int num1,num2;
+       printf("\nenter the number1 and 2 :");
+   scanf("%d %d",&num1,&num2);
+   printf("\nbefore swap value num1,num2 %d %d",num1,num2);
+   int num3;
+   num3=num1;
+   num1=num2;
+   num2=num3;
+   printf("\nafter swap value num1,num2 %d %d",num1,num2);
+   }else{
+       printf("miss match charecter");
+   }
+      
+   }
+    return 0;
+}
+
+-----------------------------------------------------
+15)
+three number maximum 
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+   int num1,num2,num3;
+   printf("enter the number num1 num2 num3 :");
+   scanf("%d %d %d",&num1,&num2,&num3);
+  if(num1>num2 && num1>num3){
+      printf("num1 is greater");
+  }else if(num2>num3 && num2>num1){
+      printf("num2 is greater");
+  }else {
+      printf("num3 is greater");
+  }
+    return 0;
+}
+--------------------------------------------------------
+
+16)
+five number maximum 
+equal :all elements are equal 
+when two number will then print 
+ans.
+
+
+#include <stdio.h>
+
+int main()
+{
+  int num1,num2,num3,num4,num5;
+   printf("enter the number num1 num2 num3 num4 num5 :");
+   scanf("%d %d %d %d %d",&num1,&num2,&num3,&num4,&num5);
+    if(num1>num2 && num1>num3 && num1>num4 && num1>num5){
+        printf("num1 is maximum");
+    }
+    else  if(num2>num1 && num2>num3 && num2>num4 && num2>num5){
+        printf("num2 is maximum");
+    }
+    else  if(num3>num1 && num3>num2 && num3>num4 && num3>num5){
+        printf("num3 is maximum");
+    }
+    else  if(num4>num1 && num4>num3 && num4>num2 && num4>num5){
+        printf("num4 is maximum");
+    }
+    else  if(num5>num1 && num5>num3 && num5>num4 && num5>num2){
+        printf("num5 is maximum");
+    }
+    if(num1==num2){
+        printf("\nnum1 & num2 is equal");
+    }
+    else if(num1==num3){
+        printf("\nnum1 & num3 is equal");
+    }
+    else if(num1==num4){
+        printf("\nnum1 & num4 is equal");
+    }
+    else if(num1==num5){
+        printf("\nnum1 & num5 is equal");
+    }
+    else if(num2==num3){
+        printf("\nnum2 & num3 is equal");
+    }
+    else if(num2==num4){
+        printf("\nnum2 & num4 is equal");
+    }
+    else if(num2==num5){
+        printf("\nnum2 & num5 is equal");
+    }
+    else if(num3==num4){
+        printf("\nnum3 & num4 is equal");
+    }
+    else if(num3==num5){
+        printf("\nnum3 & num5 is equal");
+    }
+    else if(num4==num5){
+        printf("\nnum4 & num5 is equal");
+    }
+    if(num1==num2 ||num2==num3 || num3==num4|| num4==num5){
+        printf("\nall are equal");
+    }
+    return 0;
+}
+
+-----------------------------------------------------------
+17)
+ten number maximum 
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+   int num1,num2,num3,num4,num5,num6,num7,num8,num9,num10;
+   printf("enter the number num1 num2 num3 num3,num4,num6,num7,num8,num9,num10 :");
+   scanf("%d %d %d %d %d %d %d %d %d %d",&num1,&num2,&num3,&num4 ,&num5,&num6,&num7,&num8,&num9,&num10);
+  if(num1>num2 && num1>num3 &&num1>num4 &&num1>num5 && num1>num6 && num1>num7 && num1>num8 && num1>num9 && num1>num10){
+      printf("num1 is greater");
+  }else if(num2>num1 && num2>num3 &&num2>num4 &&num2>num5 && num2>num6 && num2>num7 && num2>num8 && num2>num9 && num2>num10){
+      printf("num2 is greater");
+  }else if(num3>num1 && num3>num2 &&num3>num4 &&num3>num5 && num3>num6 && num3>num7 && num3>num8 && num3>num9 && num3>num10){
+      printf("num3  is greater");
+  }else if(num4>num1 && num4>num2 &&num4>num3 &&num4>num5 && num4>num6 && num4>num7 && num4>num8 && num4>num9 && num4>num10){
+      printf("num4 is greater");
+  }else if(num5>num1 && num5>num2 &&num5>num4 &&num5>num3 && num5>num6 && num5>num7 && num5>num8 && num5>num9 && num5>num10){
+      printf("num5  is greater");
+  }else if(num6>num1 && num6>num2 &&num6>num4 &&num6>num5 && num6>num3 && num6>num7 && num6>num8 && num6>num9 && num6>num10){
+      printf("num6  is greater");
+  }else if(num7>num1 && num7>num2 &&num7>num4 &&num7>num5 && num7>num6 && num7>num3 && num7>num8 && num7>num9 && num7>num10){
+      printf("num7 is greater");
+  }else if(num8>num1 && num8>num2 &&num8>num4 &&num8>num5 && num8>num6 && num8>num7 && num8>num3 && num8>num9 && num8>num10){
+      printf("num8 is greater");
+  }else if(num9>num1 && num9>num2 &&num9>num4 &&num9>num5 && num9>num6 && num9>num7 && num9>num8 && num9>num3 && num9>num10){
+      printf("num9 is greater");
+  }else if(num10>num1 && num10>num2 &&num10>num4 &&num10>num5 && num10>num6 && num10>num7 && num10>num8 && num10>num9 && num10>num3){
+      printf("num10 is greater");
+  }
+    return 0;
+}
+
+------------------------------------------------------------------
+
