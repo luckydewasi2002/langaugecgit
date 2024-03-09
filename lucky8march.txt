@@ -1,0 +1,501 @@
+q.)
+1---->10 even number print
+ans.
+ 
+#include <stdio.h>
+
+int main()
+{
+  int a=1;
+  while(a<=10){
+      if(a%2==0){
+          printf("%d ",a);
+      }
+      a++;
+  }
+
+    return 0;
+}
+
+-------------------------------------------------
+q.)1---->100 even number print
+ans.
+ 
+#include <stdio.h>
+
+int main()
+{
+  int a=1;
+  while(a<=100){
+      if(a%2==0){
+          printf("%d ",a);
+      }
+      a++;
+  }
+
+    return 0;
+}
+
+-------------------------------------------------
+q.)50---->100 even number print 
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+  int a=50;
+  while(a<=100){
+      if(a%2==0){
+          printf("%d ",a);
+      }
+      a++;
+  }
+
+    return 0;
+}
+
+-------------------------------------------------
+q.)10---->1 even number print 
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+  int a=10;
+  while(a>=1){
+      if(a%2==0){
+          printf("%d ",a);
+      }
+      a--;
+  }
+
+    return 0;
+}
+
+-------------------------------------------------
+q.)100---->1 even number print
+ans.
+ 
+#include <stdio.h>
+
+int main()
+{
+  int a=100;
+  while(a>=1){
+      if(a%2==0){
+          printf("%d ",a);
+      }
+      a--;
+  }
+
+    return 0;
+}
+
+-------------------------------------------------
+q.)53---89 even number print 
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+  int a=53;
+  while(a<=89){
+      if(a%2==0){
+          printf("%d ",a);
+      }
+      a++;
+  }
+
+    return 0;
+}
+
+-------------------------------------------------
+q.)78---65 even number print 
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+  int a=78;
+  while(a>=65){
+      if(a%2==0){
+          printf("%d ",a);
+      }
+      a--;
+  }
+
+    return 0;
+}
+
+-------------------------------------------------
+q.)user :
+start :7
+end :9
+
+7 se 9 tak k user input :even number 
+ans.
+
+#include <stdio.h>
+
+int main()
+{
+  int sp,ep;
+  printf("enter the number sp & ep :");
+  scanf("%d %d",&sp, &ep);
+  while(sp<=ep){
+      if(sp%2==0){
+          printf("%d",sp);
+      }
+      sp++;
+  }
+
+    return 0;
+}
+
+----------------------------------------
+-------------------------------------------------
+q.)1---->100 odd number print 
+ans.
+#include <stdio.h>
+
+int main()
+{
+  int a=1;
+  while(a<=100){
+      if(a%2!=0){
+          printf("%d ",a);
+      }
+      a++;
+  }
+
+    return 0;
+}
+-------------------------------------------------
+q.)67---->89 odd number print 
+ans.
+#include <stdio.h>
+
+int main()
+{
+  int a=67;
+  while(a<=89){
+      if(a%2!=0){
+          printf("%d ",a);
+      }
+      a++;
+  }
+
+    return 0;
+}
+-------------------------------------------------
+q.)count digit :
+34534645 :dry run +laptop (cw)
+ans.
+#include <stdio.h>
+
+int main()
+{
+ int num=34534645;
+ int count=0;
+ while(num>0){
+     count++;
+     num=num/10;
+ }
+printf("%d",count);
+    return 0;
+}
+-------------------------------------------------
+q.)reverse of number :56234 
+->43265
+
+dry run +laptop
+ans.
+#include <stdio.h>
+
+int main()
+{
+ int num=56234 ;
+ int rem,sum=0;
+ while(num>0){
+     rem=num%10;
+     sum=sum*10+rem;
+     num=num/10;
+ }
+printf("%d",sum);
+    return 0;
+}
+-------------------------------------------------
+q.)c program to check a number is pallindrome : 
+12321 :dry  run +laptop 
+ans.
+#include <stdio.h>
+
+int main()
+{
+ int num=12321 ;
+ int rem,sum=0;
+ int temp=num;
+ while(num>0){
+     rem=num%10;
+     sum=sum*10+rem;
+     num=num/10;
+ }
+
+if(temp==sum){
+    printf("this is pallindrom");
+}else{
+    printf("not a pallindrom");
+}
+    return 0;
+}
+--------
+q.)1231  check to pallindrom.
+ans.
+#include <stdio.h>
+
+int main()
+{
+ int num=1231;
+ int rem,sum=0;
+ int temp=num;
+ while(num>0){
+     rem=num%10;
+     sum=sum*10+rem;
+     num=num/10;
+ }
+
+if(temp==sum){
+    printf("this is pallindrom");
+}else{
+    printf("not a pallindrom");
+}
+    return 0;
+}
+---------
+q.)armstrong 
+153 :dry  run +laptop 
+ans.
+#include <stdio.h>
+
+int main()
+{
+ int num=153;
+ int rem,sum=0;
+ int temp=num;
+ while(num>0){
+     rem=num%10;
+     sum=sum+rem*rem*rem;
+     num=num/10;
+ }
+
+if(temp==sum){
+    printf("this is armstrong number");
+}else{
+    printf("not a armstrong number");
+}
+    return 0;
+}
+-----
+q.)156 check to armstrong number.
+ans.
+#include <stdio.h>
+
+int main()
+{
+ int num=156;
+ int rem,sum=0;
+ int temp=num;
+ while(num>0){
+     rem=num%10;
+     sum=sum+rem*rem*rem;
+     num=num/10;
+ }
+
+if(temp==sum){
+    printf("this is armstrong number");
+}else{
+    printf("not a armstrong number");
+}
+    return 0;
+}
+-------------------------------------------------
+q.)user input :
+
+e : 23---89 even number
+
+o :67---->23 odd number 
+
+r :reverse number print 
+
+p :pallindrome 
+
+a :armstrong 
+
+s :swap 
+	w :with 
+	o:without 
+
+g :for gender 
+	m :male 
+	f :female 
+	o :others 
+
+m :month check 
+
+c :count of digit 
+ans..
+
+#include <stdio.h>
+
+int main()
+{
+    char ch;
+    printf("enter a character :");
+    scanf("%c",&ch);
+
+     if(ch=='e'){
+         int num=23;
+         while(num<=89){
+             if(num%2==0){
+                  printf(" even number\n %d",num);
+             }
+            num++;
+         }
+     } else if(ch=='o'){
+         int num=23;
+         while(num<=89){
+             if(num%2==1){
+                  printf(" even number\n %d",num);
+             }
+            num++;
+         }
+     } else if(ch=='r'){
+         int num=214521245;
+         int rem,sum=0;
+         while(num>0){
+             rem=num%10;
+             sum=sum*10+rem;
+             num=num/10;
+         } printf("%d",sum);
+     } 
+     else if(ch=='p'){
+         int num=21312;
+         int rem,sum=0;
+         int temp=num;
+         while(num>0){
+             rem=num%10;
+             sum=sum*10+rem;
+             num=num/10;
+         }
+         if(temp==sum){
+             printf("number is pallindrome");
+         } else{
+              printf("number is not a pallindrome");
+         }
+     }else if(ch=='a'){
+         int num=170;
+         int rem,sum=0;
+         int temp=num;
+         while(num>0){
+             rem=num%10;
+             sum=sum+rem*rem*rem;
+             num=num/10;
+         }
+         if(temp==sum){
+             printf("number is aemstrong");
+         } else{
+              printf("number is not a armstrong");
+         }
+     } else if(ch=='s'){
+          char ch;
+    printf("enter a character(w/o) :");
+    scanf(" %c",&ch);
+    if(ch=='w'){
+        int num1;
+        int num2;
+         printf("enter a num 1 and num 2 :");
+    scanf("%d %d",&num1,&num2);
+    int num3;
+        num3=num1;
+        num1=num2;
+        num2=num3;
+        printf("swap with third variable num1 and num2 : %d %d",num1,num2);
+     
+    }else if(ch=='o'){
+        int num1;
+        int num2;
+         printf("enter a num 1 and num 2 :");
+    scanf("%d %d",&num1,&num2);
+        num1=num1+num2;
+        num2=num1-num2;
+        num1=num1-num2;
+        printf("swap without third variable num1 and num2 : %d %d",num1,num2);
+    } else{
+        printf("miss match character");
+    }
+         
+     } else if(ch=='g'){
+         char ch;
+    printf("enter a character(m/f/o) :");
+    scanf("%c",&ch);
+    if(ch=='m'){
+        printf("male");
+    }else if(ch=='f'){
+        printf("female");
+    }else if(ch=='o'){
+        printf("other");
+    } else{
+        printf("missmatch charecter");
+    }
+
+     } else if(ch=='m'){
+          int num;
+    printf("enter a number of month :");
+    scanf("%d",&num);
+    if(num==1){
+        printf("janvaury");
+    }else if(num==2){
+        printf("february");
+}else if(num==3){
+        printf("march");
+}else if(num==4){
+        printf("april");
+}else if(num==5){
+        printf("may");
+}else if(num==6){
+        printf("june");
+}else if(num==7){
+    printf("july");
+}else if(num==8){
+        printf("august");
+}else if(num==9){
+    printf("september");
+}else if(num==10){
+    printf("october");
+}else if(num==11){
+    printf("november");
+}else if(num==12){
+    printf("december");
+}else {
+    printf("plz enter the valid number (1..12)");
+}
+     } else if(ch=='c'){
+         int num=56245245;
+         int count=0;
+         while(num>0){
+             count++;
+             num=num/10;
+         }printf(" count of num :%d",count);
+     } else{
+         printf("input missmatch");
+     }
+    return 0;
+}
+
+---------------------------------------------------
+
+
