@@ -1,0 +1,653 @@
+no return and no argument 
+-------------------------------------------------------------------
+1)
+two number : user input 
+add() :
+sub()
+div()
+mul()
+mod()
+ans.
+
+#include <stdio.h>
+void add();
+void sub();
+void divi();
+void mul();
+void modu();
+int main()
+{
+  add();
+  sub();
+  mul();
+  divi();
+  modu();
+  
+    return 0;
+}
+void add(){
+    int a,b,c;
+    printf("enter a and b :");
+    scanf("%d %d",&a, &b);
+    c=a+b;
+    printf("\n addition :%d",c);
+    
+}
+void sub(){
+    int a,b,c;
+    printf("\nenter a and b :");
+    scanf("%d %d",&a, &b);
+    c=a-b;
+    printf("\n substraction :%d",c);
+}
+void mul(){
+    int a,b,c;
+    printf("\nenter a and b :");
+    scanf("%d %d",&a, &b);
+    c=a*b;
+    printf("\n multipication :%d",c);
+}
+void divi(){
+    int a,b,c;
+    printf("\nenter a and b :");
+    scanf("%d %d",&a, &b);
+    c=a/b;
+    printf("\n division : %d",c);
+}
+void modu(){
+    int a,b,c;
+    printf("\nenter a and b :");
+    scanf("%d %d",&a, &b);
+    c=a%b;
+    printf("\n modular :%d",c);
+}
+-------------------------------------------------------------------
+2)
+swap()
+voter()
+twoNumber() =>two number maximum 
+threeNumber() =>three number maximum
+value() =>100--->1 even number 
+armstrong() :armstrong number 
+ans.
+#include <stdio.h>
+void swap();
+void voter();
+void twonum();
+void threenum();
+void value();
+void armstrong();
+int main()
+{
+   swap();
+   voter ();
+   twonum();
+   threenum();
+   value();
+  armstrong();
+ 
+  
+    return 0;
+} void voter();
+{
+    int a;
+    printf("\nenter  age  :");
+    scanf("%d",&a);
+    if(a>18){
+        printf("you are voter");
+    }else{
+        printf("you are not a voter");
+    }
+}
+void twonum(){
+    int a,b;
+    printf("\nenter num a and b :");
+    scanf("%d %d",&a,&b);
+    if(a>b){
+        printf("a is max.");
+    }else{
+        printf("b is max.");
+    }
+}
+void threenum(){
+    int a,b,c;
+    printf("\nenter num a and b ,c :");
+    scanf("%d %d %d",&a,&b,&c);
+    if(a>b&&a>c){
+        printf("a is max.");
+    } else if(b>a&&b>c){
+        printf("b is max.");
+    }else{
+        printf("c is max.");
+    }
+} 
+ void value(){
+     int i;
+     for(i=100;i>=1;i--){
+         if(i%2==0){
+             printf("%d ",i);
+         }
+     }
+ } 
+void armstrong(){
+     int a;
+    printf("\nenter  a number  :");
+    scanf("%d",&a);
+    int rem,sum=0;
+    int temp=a;
+    while(a>0){
+        rem=a%10;
+        sum=sum+rem*rem*rem;
+        a=a/10;
+    } if(temp==sum){
+        printf("armstrong number");
+    } else{
+        printf("not a armstrong number");
+    }
+}
+ 
+-------------------------------------------------------------------
+3)
+user input :character :
+g :gender function call
+a :armstrong number 
+p :pallindrome 
+f :factorial 
+c :count 
+r :reverse 
+b :fibonacci 
+v :voter id 
+m :marksheet making (grade)
+s :
+	w :with third variable :function call 
+	o :without third variable :function call
+
+w :week 
+n :month 
+t :table print 
+k :sum of natural numbers (1--->10)
+e :even odd 
+x :starting point and ending point :odd numbers print 
+j :starting point and ending table print (2---8)
+u :unit prgram (electricity code ) 
+z :ticket booking (adult 18 se jyada no discount )
+	18 se km 5%
+	50 se jyada 10% 
+d :game : rock paper secissor 
+	r p :win paper 
+	p s :s win 
+	r s :r win 
+	r r :tie 
+	p p :tie
+	s s :tie 
+ ans.
+#include <stdio.h>
+ void gender();
+ void armstrong();
+ void pal();
+ void fact();
+  void count();
+  void reverse();
+  void fibo();
+  void voter();
+  void mark();
+  void swap();
+  void week();
+  void month();
+  void tab();
+  void sum();
+  void evenodd();
+  void odd();
+  void alltab();
+  void elect();
+  void ticket();
+  void game();
+int main()
+{
+    char ch;
+    printf("enter a character :");
+    scanf(" %c",&ch);
+    if(ch=='g'){
+        gender();
+    }else if(ch=='a'){
+        armstrong();
+    } else if(ch=='p'){
+        pal();
+    } else if(ch=='f'){
+        fact();
+    } else if(ch=='c'){
+        count();
+    } else if(ch=='r'){
+        reverse();
+    } else if(ch=='b'){
+        fibo();
+    } else if(ch=='v'){
+        voter();
+    } else if(ch=='m'){
+        mark();
+    } else if(ch=='s'){
+        swap();
+    } else if(ch=='w'){
+        week();
+    } else if(ch=='n'){
+        month();
+    } else if(ch=='t'){
+        tab();
+    } else if(ch=='k'){
+        sum();
+    } else if(ch=='e'){
+        evenodd();
+    } else if(ch=='x'){
+        odd();
+    } else if(ch=='j'){
+        alltab();
+    } else if (ch=='u'){
+        elect();
+    } else if(ch=='z'){
+        ticket();
+    } else if(ch=='d'){
+        game();
+    }
+
+    return 0;
+}
+void gender(){
+      char ch;
+    printf("enter a character (f&m) :");
+    scanf(" %c",&ch);
+    if(ch=='m'){
+        printf("male");
+    } else if(ch=='f'){
+        printf("female");
+    } else{
+        printf("missmatch");
+    }
+}
+void armstrong(){
+     int a;
+    printf("\nenter  a number  :");
+    scanf("%d",&a);
+    int rem,sum=0;
+    int temp=a;
+    while(a>0){
+        rem=a%10;
+        sum=sum+rem*rem*rem;
+        a=a/10;
+    } if(temp==sum){
+        printf("armstrong number");
+    } else{
+        printf("not a armstrong number");
+    }
+}
+void pal(){
+     int a;
+    printf("\nenter  a number  :");
+    scanf("%d",&a);
+    int rem,sum=0;
+    int temp=a;
+    while(a>0){
+        rem=a%10;
+        sum=sum*10+rem;
+        a=a/10;
+    } if(temp==sum){
+        printf("pallindrome number");
+    } else{
+        printf("not a pallindrome number");
+    }
+}
+void fact(){
+    int a;
+    printf("\nenter  a number  :");
+    scanf("%d",&a);
+    int fact=1;
+    for(int i=1;i<=a;i++){
+        fact=fact*i;
+         }printf(" factorial of :%d",fact);
+   
+    
+}
+void count(){
+    int a;
+    printf("\nenter  a number  :");
+    scanf("%d",&a);
+   
+    int count=0;
+    while(a>0){
+        count++;
+        a=a/10;
+} printf("%d",count);
+}
+    void reverse(){
+        int a;
+    printf("\nenter  a number  :");
+    scanf("%d",&a);
+    int rem,sum=0;
+   while(a>0){
+       rem=a%10;
+   sum=sum*10+rem;
+   a=a/10;
+   } printf("%d",sum);
+ 
+    }
+    
+    void fibo(){
+          int a;
+    printf("\nenter  a number  :");
+    scanf("%d",&a);
+    int n1=0,n2=1,n3;
+       printf("%d %d ",n1,n2);
+       for(int i=1;i<=a;i++){
+           n3=n2+n1;
+           printf("%d ",n3);
+           n1=n2;
+           n2=n3;
+       }
+    }
+    
+    void voter(){
+          int a;
+    printf("\nenter  age  :");
+    scanf("%d",&a);
+    if(a>18){
+        printf("you are voter");
+    } else {
+        printf("you are not a voter");
+    }
+    }
+    
+    void mark(){
+         int a,b,c;
+    printf("\nenter  marks a,b,c  :");
+    scanf("%d %d %d",&a,&b,&c);
+    int d=a+b+c;
+        int pr=(d*100)/300;
+        printf("\nname  :  laxman");
+        printf("\nroll number  :786");
+        printf(" \ntotal marks :%d",d);
+        printf("\nprecantage is %d",pr);
+        if( pr<100&&pr>=60){
+            printf("\nfrist division");
+        } else if(pr>45&&pr<60){
+            printf("\nsecond division");
+        } else{
+            printf("\nthird division");
+            
+        }
+    }
+    
+     void swap(){
+        char ch;;
+    printf("\nenter  a character (w/o)  :");
+    scanf(" %c",&ch);
+    
+    if(ch=='w'){
+        int a,b;
+    printf("\nenter  marks a,b  :");
+    scanf("%d %d",&a,&b);
+    int c;
+    c=a;
+    a=b;
+    b=c;
+    printf("after swap value :%d %d",a,b);
+    }else if(ch=='o'){
+        int a,b;
+    printf("\nenter  marks a,b  :");
+    scanf("%d %d",&a,&b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf("after swap value :%d %d",a,b);
+    }
+    
+    }
+    
+    void week(){
+         int a;
+    printf("\nenter  week number (1..7)  :");
+    scanf("%d",&a);
+    if(a==1){
+        printf("sunday");
+    }else  if(a==2){
+        printf("monday");
+    } else  if(a==3){
+        printf("tuesday");
+    }else  if(a==4){
+        printf("wednesday");
+    }else  if(a==5){
+        printf("thursday");
+    }else  if(a==6){
+        printf("friday");
+    }else  if(a==7){
+        printf("saturday");
+    }else {
+        printf("missmatch");
+    }
+    }
+    
+    void month(){
+          int a;
+    printf("\nenter  month number (1..12)  :");
+    scanf("%d",&a);
+    if(a==1){
+        printf("jan");
+    }else  if(a==2){
+        printf("feb");
+    } else  if(a==3){
+        printf("march");
+    }else  if(a==4){
+        printf("april");
+    }else  if(a==5){
+        printf("may");
+    }else  if(a==6){
+        printf("june");
+    }else  if(a==7){
+        printf("july");
+    }else  if(a==8){
+        printf("aug");
+    } else  if(a==9){
+        printf("sep");
+    }else  if(a==10){
+        printf("oct");
+    }else  if(a==11){
+        printf("nov");
+    }else  if(a==12){
+        printf("dec");
+    }else{
+        printf("valdi month enter");
+    }
+        
+    }
+    void tab(){
+         int a;
+    printf("\nenter   number   :");
+    scanf("%d",&a);
+        for(int i=1;i<=10;i++){
+            printf("%d ",i*a);
+        }
+    }
+    void sum(){
+         int a;
+    printf("\nenter   number   :");
+    scanf("%d",&a);
+    int sum=0;
+    for(int i=1;i<=a;i++){
+        sum=sum+i;
+        
+    } printf(" sum of :%d ",sum);
+    }
+    
+    void evenodd(){
+         int a;
+    printf("\nenter   number   :");
+    scanf("%d",&a);
+    if(a%2==0){
+        printf("even number");
+    } else {
+        printf("odd number");
+    }
+    }
+    void odd(){
+         int sp,ep;
+    printf("\nenter  sp ep  :");
+    scanf("%d %d",&sp,&ep);
+    for(int i=sp;i<=ep;i++){
+        if(i%2!=0){
+            printf("%d ",i);
+        }
+    }
+    }
+    
+   void alltab(){
+       int sp,ep;
+    printf("\nenter  sp ep  :");
+    scanf("%d %d",&sp,&ep);
+    for(int i=1;i<=10;i++){
+        for(int j=sp;j<=ep;j++){
+            printf("\n%d ",i*j);
+        }
+    }
+   } 
+    
+   void elect(){
+       int a;
+    printf("\nenter   number unit   :");
+    scanf("%d",&a);
+       int bill=a*10;
+       printf("\n name    : laxman");
+       printf("\n unit     : %d",a);
+       printf("\n total pay amount : %d",bill);
+   } 
+    
+    void ticket(){
+          int a,amount;
+    printf("\nenter  age and amount  :");
+    scanf("%d %d",&a,&amount);
+    
+    if(a<18){
+      int  disc=(amount*5)/100;
+        printf("discount is 5 prcnt your ticket is :%d",amount-disc);
+    } else if(a>50){
+        int disc=(amount*20)/100;
+        printf("discount is 20prcnt your ticket is :%d",amount-disc);
+    } else{
+        printf("your ticket is :%d",amount);
+    }
+        
+    }
+    
+    void game(){
+        char ch1,ch2;
+    printf("\nenter  ch1 ch2(r/p/s)  :");
+    scanf(" %c %c",&ch1,&ch2);
+    if(ch1=='r'&& ch2=='p'){
+        printf("win paper");
+    } else if(ch1=='p'&&ch2=='s'){
+        printf(" s win");
+    } else if(ch1=='r'&&ch2=='s'){
+        printf(" r win");
+    } else if(ch1=='p'&&ch2=='p'){
+        printf(" tie");
+    }else if(ch1=='r'&&ch2=='r'){
+        printf(" tie");
+    }else if(ch1=='s'&&ch2=='s'){
+        printf(" tie");
+    } else {
+        printf("input miss match");
+    }
+    }
+    
+---------------------------------------------------------------------
+-----------------------------------------------------------------
+no return and  argument 
+-------------------------------------------------------------------
+1)
+two number : user input 
+add() :
+sub()
+div()
+mul()
+mod()
+ans.
+
+#include <stdio.h>
+void add();
+void sub();
+void divi();
+void multi();
+void modu();
+int main()
+{ 
+    int a,b,c;
+    printf("enter a and b :");
+    scanf("%d %d",&a, &b);
+    add(a,b);
+    sub(a,b);
+    divi(a,b);
+    multi(a,b);
+    modu(a,b);
+    return 0;
+}
+void add(int a,int b){
+    int c=a+b;
+    printf("\naddition : %d",c);
+}
+void sub(int a,int b){
+    int c=b-a;
+    printf("\nsubstraction %d",c);
+}
+void divi(int a,int b){
+    int c=b/a;
+    printf("\ndivision %d",c);
+}
+void multi(int a,int b){
+    int c=b*a;
+    printf("\n multipication %d",c);
+}
+void modu(int a,int b){
+    int c=b%a;
+    printf("\n modular %d",c);
+}
+
+
+-------------------------------------------------------------------
+2)
+swap()
+voter()
+twoNumber() =>two number maximum 
+threeNumber() =>three number maximum
+value() =>100--->1 even number 
+armstrong() :armstrong number 
+-------------------------------------------------------------------
+3)
+user input :character :
+g :gender function call
+a :armstrong number 
+p :pallindrome 
+f :factorial 
+c :count 
+r :reverse 
+b :fibonacci 
+v :voter id 
+m :marksheet making (grade)
+s :
+	w :with third variable :function call 
+	o :without third variable :function call
+
+w :week 
+n :month 
+t :table print 
+k :sum of natural numbers (1--->10)
+e :even odd 
+x :starting point and ending point :odd numbers print 
+j :starting point and ending table print (2---8)
+u :unit prgram (electricity code ) 
+z :ticket booking (adult 18 se jyada no discount )
+	18 se km 5%
+	50 se jyada 10% 
+d :game : rock paper secissor 
+	r p :win paper 
+	p s :s win 
+	r s :r win 
+	r r :tie 
+	p p :tie
+	s s :tie 
